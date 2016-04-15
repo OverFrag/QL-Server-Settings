@@ -1,0 +1,27 @@
+539220640 ;OverFrag gametypes
+539421606 ;ql extras
+539421982 ;Quake Live Holiday Pack
+546209430 ;wpak0
+546895198 ;wpak1
+546129401 ;wpak2
+545699336 ;wpak3
+546960020 ;wpak4
+585781036 ;psidm7 map
+585784905 ;cpm8 map
+585785188 ;tscabdm2 map
+585785742 ;mvdm09 map
+544634523 ;consequence map
+575312620 ;ospmaps
+577333309 ;nemesis map
+553729235 ;push map
+573808557 ;fr3dm1 (ironyard) map
+589919154 ;splatdm2 (Portal Mayhem) map
+587950516 ;Plus Maps
+596909949 ;mkbase map
+660785987 ;jaxdm8
+617633028 ;ctf_voy4
+603533073 ;ctf_tkc
+602772147 ;ctf_mapel4
+658750477 ;cpm2
+658752401 ;mapel4b
+573807159 ;qfraggel
