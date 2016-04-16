@@ -7,14 +7,16 @@ SERVERS=(pub1 pub2 pub3)
 # Just add server's ids to array above
 # Feel free to adjust the script to your needs
 
-for sv in $(SERVERS[*])
+ABSOLUTE_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+for sv in ${SERVERS[*]}
 do
-    echo "qldsmanager server stop $sv" && \
-    echo "python3 ~/QL-Server-Settings/qlcfg.py \
+    qldsmanager server stop "$sv" && \
+    python3 "$ABSOLUTE_PATH/qlcfg.py" \
     --access \
-    ~/.quakelive/$(sv)/baseq3/access.txt \
+    "~/.quakelive/$sv/baseq3/access.txt" \
     --remove \
     --workshop \
-    ~/.quakelive/$(sv)/baseq3/workshop.txt" && \
-    echo "qldsmanager server start $(sv)"
+    "~/.quakelive/$sv/baseq3/workshop.txt" && \
+    qldsmanager server start "$sv"
 done
