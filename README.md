@@ -1,5 +1,10 @@
 # Quake Live Server Settings
 
+## CAUTION!
+
+Remember that every time `access.txt` file changes, You have to call `reload_access` on the server or it has to be
+powered off. Otherwise on next map change all modifications will be lost!
+
 ## Updater script
 
 Using updater script is easy. Point it to single or multiple access and workshop files and let it do the magic:
@@ -18,4 +23,4 @@ existing ones:
 
 `--workshop ~/.quakelive/pub1/baseq3/workshop.txt ~/.quakelive/priv1/baseq3/workshop.txt`
 
-You can use all 3 arguments: `--access`, `--workshop` and `--remove` at the same time
+You can use all 3 arguments: `--access`, `--workshop` and `--remove` at the same time.
