@@ -17,6 +17,14 @@ do
     "~/.quakelive/$sv/baseq3/access.txt" \
     --remove \
     --workshop \
-    "~/.quakelive/$sv/baseq3/workshop.txt" && \
+    "~/.quakelive/$sv/baseq3/workshop.txt"
+done
+
+
+python3 "$ABSOLUTE_PATH/qlcfg.py" --steamcmd
+
+
+for sv in ${SERVERS[*]}
+do
     qldsmanager server start "$sv"
 done

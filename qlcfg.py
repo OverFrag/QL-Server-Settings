@@ -5,11 +5,13 @@ import urllib.error
 import json
 import base64
 import collections
+from subprocess import call
 
 
 REPOSITORY = 'https://api.github.com/repos/OverFrag/QL-Server-Settings'
 ACCESS_FILE = 'baseq3/access.txt'
 WORKSHOP_FILE = 'baseq3/workshop.txt'
+APP_ID = 282440
 
 
 def update_access(files, allow_remove):
@@ -113,6 +115,35 @@ def update_workshop(files):
         f.close()
 
 
+def steamcmd_call_workshop(steamcmd):
+    print('Calling steamcmd to update workshop items')
+
+    steamcmd = os.path.expanduser(steamcmd)
+
+    if not os.path.exists(steamcmd) or not os.access(steamcmd, os.X_OK):
+        print('[ERROR] steamcmd doesn\'t exist in specified location or is not executable')
+        exit(1)
+
+    workshop = get_remote_file(WORKSHOP_FILE)
+
+    cmd = [
+        steamcmd,
+        '+login', 'anonymous'
+    ]
+
+    for line in workshop:
+        if not line.startswith('#') and not line.startswith(';'):
+            itemid, name = map(str.strip, line.split(';'))
+
+            cmd.append('+workshop_download_item')
+            cmd.append(str(APP_ID))
+            cmd.append(itemid.sttip())
+
+    cmd.append('+quit')
+
+    call(cmd)
+
+
 def get_remote_file(file):
     try:
         response = urllib.request.urlopen('/'.join([REPOSITORY, 'contents', file]))
@@ -155,7 +186,17 @@ def main():
                         metavar='FILE'
                         )
 
+    parser.add_argument('--steamcmd',
+                        dest='steamcmd',
+                        metavar='PATH',
+                        help='Path to SteamCMD - if path is valid, it will update workshop items. This argument '
+                             'excludes all other args')
+
     args = parser.parse_args()
+
+    if args.steamcmd:
+        steamcmd_call_workshop(args.steamcmd)
+        exit(0)
 
     if args.access is not None:
         update_access(args.access, args.remove)
