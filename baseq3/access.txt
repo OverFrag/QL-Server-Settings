@@ -16,3 +16,14 @@
 76561198289467489|ban ;cheloo
 76561198155960779|ban ;chr1s
 ;ex 76561198059389963|admin ;Tonks
+;ex 76561198256224506|mod ;LadyQuinn
+;ex 76561198159633832|mod ;Porn       
+;ex 76561198113074125|mod ;Kyz        
+;ex 76561198249424966|mod ;DzDz       
+;ex 76561197999378686|mod ;Papay Avocado
+;ex 76561198065679326|mod ;Xer        
+;ex 76561198027254024|mod ;Kodisha        
+;ex 76561198256823272|mod ;Misiek     
+;ex 76561198075963611|mod ;Trouble        
+;ex 76561197992220065|mod ;Klash (cheat.exe)
+;ex 76561198037731715|mod ;Druzil
