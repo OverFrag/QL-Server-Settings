@@ -32,4 +32,6 @@
 569916167 ;Nunuk Mappack chiropteraDM
 583821497 ;Powahaus Redux cpm18r
 679929214 ;Undergod q3dmp23
-73807159 ;qfraggel2a lastfortressbadlands 
+73807159 ;qfraggel2a lastfortressbadlands
+763370015 ;cpmctf2 ictf map
+755744479 ;26 ctf mappack
