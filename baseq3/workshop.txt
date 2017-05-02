@@ -26,7 +26,6 @@
 658752401 ;mapel4b
 573807159 ;qfraggel
 691078677 ;gibs! yeah!
-607062910 ;lastfortress qfraggel2
 607046379 ;Coriolis Storm lun3dm1
 675534589 ;Burning Reminders burning1
 584984610 ;Grindill 2.0 qxdm4_v2
