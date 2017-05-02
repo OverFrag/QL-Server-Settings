@@ -26,3 +26,5 @@
 658752401 ;mapel4b
 573807159 ;qfraggel
 691078677 ;gibs! yeah!
+763370015 ;cpmctf2 ictf map
+755744479 ;26 ctf mappack
