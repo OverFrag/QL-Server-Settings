@@ -36,3 +36,4 @@
 763370015 ;cpmctf2 ictf map
 755744479 ;26 ctf mappack
 567348670 ;wintermappack
+867665607 ;13circle_xt tonks circleofdeath
