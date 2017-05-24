@@ -8,7 +8,7 @@
 76561197998766163|admin ;Flippi
 76561197995432727|admin ;niewi (benice)
 76561198025233449|admin ;Flatout (Rise Servers)
-76561198258103282|mod ;arctus
+76561198258848547|mod ;Mmaria
 76561198077505157|mod ;Loxotron
 76561198255435644|ban ;dfoss aimbot http://steamcommunity.com/profiles/76561198255435644/
 76561198257413251|ban ;cheloo1
@@ -23,6 +23,7 @@
 76561198286926891|ban ;skyhigh cheater
 76561198157735007|ban ;sleepy Ash public cheater
 76561198256757366|ban ;pabumon
+;ex 76561198258103282|mod ;arctus
 ;ex 76561198156456425|admin ;Marech
 ;ex 76561198059389963|admin ;Tonks
 ;ex 76561198256224506|mod ;LadyQuinn
