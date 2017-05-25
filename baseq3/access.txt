@@ -23,6 +23,8 @@
 76561198286926891|ban ;skyhigh cheater
 76561198157735007|ban ;sleepy Ash public cheater
 76561198256757366|ban ;pabumon
+76561198238440856|ban ;dewil wallhack 
+76561198205859423|ban ;phan wallhack
 ;ex 76561198258103282|mod ;arctus
 ;ex 76561198156456425|admin ;Marech
 ;ex 76561198059389963|admin ;Tonks
