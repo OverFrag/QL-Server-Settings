@@ -24,10 +24,13 @@
 76561198256149105|ban ;Henzad
 76561197992220065|ban ;Klash (cheat.exe)
 76561198286926891|ban ;skyhigh cheater
+76561198354506153|ban ;skyhigh zezima acc
+76561198322223863|ban ;skyhigh QuitX acc
 76561198157735007|ban ;sleepy Ash public cheater
 76561198256757366|ban ;pabumon
 76561198238440856|ban ;dewil wallhack 
 76561198205859423|ban ;phan wallhack
+76561198372597892|ban ;very_sad suspicious guy thats not willed to hand out informations
 ;ex 76561198258103282|mod ;arctus
 ;ex 76561198156456425|admin ;Marech
 ;ex 76561198059389963|admin ;Tonks
