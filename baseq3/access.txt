@@ -33,6 +33,7 @@
 76561198238440856|ban ;dewil wallhack 
 76561198205859423|ban ;phan wallhack
 76561198372597892|ban ;very_sad suspicious guy thats not willed to hand out informations
+76561198314287517|ban ;krumpirko very obvious aimbot on instagib FFA
 ;ex 76561198258103282|mod ;arctus
 ;ex 76561198156456425|admin ;Marech
 ;ex 76561198059389963|admin ;Tonks
