@@ -8,7 +8,6 @@
 76561197998766163|admin ;Flippi
 76561197995432727|admin ;niewi (benice)
 76561198025233449|admin ;Flatout (Rise Servers)
-76561198258848547|mod ;Mmaria
 76561198077505157|mod ;Loxotron
 76561198255435644|ban ;dfoss aimbot http://steamcommunity.com/profiles/76561198255435644/
 76561198257413251|ban ;cheloo1
@@ -21,6 +20,7 @@
 76561198359839271|ban ;cheloo8
 76561198365418045|ban ;cheloo9
 76561198394164626|ban ;cheloo10
+76561198416238415|ban ;cheloo11
 76561198039463108|ban ;kayne 90-100LG cheater
 76561198155960779|ban ;chr1s
 76561198256149105|ban ;Henzad
@@ -34,6 +34,7 @@
 76561198205859423|ban ;phan wallhack
 76561198372597892|ban ;very_sad suspicious guy thats not willed to hand out informations
 76561198314287517|ban ;krumpirko very obvious aimbot on instagib FFA
+;ex 76561198258848547|mod ;Mmaria
 ;ex 76561198258103282|mod ;arctus
 ;ex 76561198156456425|admin ;Marech
 ;ex 76561198059389963|admin ;Tonks
