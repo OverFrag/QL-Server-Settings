@@ -15,7 +15,6 @@
 577333309 ;nemesis map
 553729235 ;push map
 573808557 ;fr3dm1 (ironyard) map
-589919154 ;splatdm2 (Portal Mayhem) map
 587950516 ;Plus Maps
 596909949 ;mkbase map
 660785987 ;jaxdm8
